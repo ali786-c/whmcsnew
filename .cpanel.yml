@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/gbhosting/public_html/whmcs/templates/kohost/
+    - /bin/cp -R * $DEPLOYPATH
