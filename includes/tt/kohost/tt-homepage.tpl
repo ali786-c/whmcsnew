@@ -25,6 +25,10 @@ and for double navbar then include this "tt-double-navbar.tpl" file-->
     {if $registerdomainenabled || $transferdomainenabled}
         {include file="$template/includes/tt/kohost/tt-domain-search.tpl"}
     {/if}
+    
+    <!-- Custom Games Section -->
+    {include file="$template/includes/tt/kohost/tt-games.tpl"}
+    
     {include file="$template/includes/tt/kohost/tt-pricing.tpl"}
 {/if}
 
